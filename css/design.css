@@ -1,0 +1,584 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Metropolis", sans-serif;
+  text-decoration: none;
+}
+#header1 {
+  float: left;
+  background: rgb(99, 190, 173);
+  width: 100%;
+  height: 40px;
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header1 p {
+  color: white;
+  font-weight: 300;
+}
+#header1 a {
+  color: white;
+  font-weight: 300;
+  margin-left: 40px;
+}
+#socialicon {
+  margin-right: 20px;
+}
+#header2 {
+  color: white;
+}
+#header2 {
+  float: left;
+  width: 100%;
+  height: 70px;
+  background: rgb(246, 251, 247);
+  line-height: 70px;
+  padding-right: 8%;
+}
+#logo {
+  float: left;
+  width: 70px;
+  margin-left: 70px;
+}
+#menu {
+  float: right;
+}
+#menu a {
+  color: rgb(93, 108, 123);
+  margin-left: 30px;
+}
+#menu a:hover {
+  color: rgb(99, 190, 173);
+}
+#donatelink {
+  border: 2px solid rgb(93, 108, 123);
+  padding: 15px 15px;
+  border-radius: 30px;
+}
+#footer1 {
+  float: left;
+  width: 100%;
+  height: 220px;
+  background: rgb(67, 81, 90);
+  margin-top: 500px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: white;
+  gap: 50px;
+}
+#footer1 h3 {
+  color: rgb(99, 190, 173);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#footer1 p {
+  margin-top: 16px;
+}
+#footer1 a {
+  color: white;
+}
+#quick2 {
+  margin-top: 40px;
+}
+#footer1 button {
+  margin-top: 25px;
+  background: rgb(91, 109, 133);
+  color: white;
+  padding: 10px 10px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+#footer1 button:hover {
+  background: rgb(99, 190, 173);
+}
+
+#footer2 {
+  float: left;
+  width: 100%;
+  height: 60px;
+  background: rgb(91, 109, 133);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer2 p {
+  color: white;
+  line-height: 60px;
+  font-size: 100;
+  margin-left: 40px;
+}
+#socialiconbottom {
+  float: right;
+}
+#socialiconbottom a {
+  line-height: 60px;
+  color: white;
+  margin-right: 40px;
+  background: rgb(67, 81, 90);
+  padding: 7px 7px;
+  border-radius: 50%;
+  align-items: center;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+#socialiconbottom a:hover {
+  background: rgb(99, 190, 173);
+}
+#logobottom {
+  float: left;
+  width: 70px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+#aboutmain {
+  float: left;
+  width: 100%;
+  height: 730px;
+  background: #eff8ff;
+}
+#aboutmain img {
+  float: left;
+  width: 53%;
+  height: 600px;
+  margin-top: 60px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+#storytext {
+  float: right;
+  width: 35%;
+  height: 190px;
+  background: white;
+  margin-top: 60px;
+  margin-right: 80px;
+  border-radius: 10px;
+}
+#storytext h1 {
+  color: rgb(67, 81, 90);
+  margin-top: 20px;
+  margin-left: 18px;
+}
+#storytext h3 {
+  color: rgb(99, 190, 173);
+  margin-left: 18px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+#storytext p {
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 18px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  color: rgb(67, 81, 90);
+}
+#missiontext {
+  float: left;
+  width: 16%;
+  height: 240px;
+  background: white;
+  margin-top: 60px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+
+#missiontext ion-icon {
+  color: black;
+  background: #eff8ff;
+  border-radius: 50%;
+  font-weight: bold;
+  margin-right: 4px;
+}
+#missiontext h2 {
+  color: rgb(99, 190, 173);
+  margin-top: 20px;
+  margin-left: 18px;
+}
+#missiontext p {
+  margin-top: 20px;
+  margin-left: 18px;
+  color: rgb(67, 81, 90);
+}
+#datatext {
+  float: right;
+  width: 12%;
+  height: 200px;
+  background: white;
+  margin-top: 60px;
+  margin-right: 95px;
+  border-radius: 10px;
+}
+#datatext h1 {
+  color: rgb(99, 190, 173);
+  margin-top: 40px;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+#datatext p {
+  color: rgb(67, 81, 90);
+  font-size: small;
+  margin-left: 20px;
+}
+
+#ceodescription img {
+  float: left;
+  margin-top: 80px;
+  width: 260px;
+  margin-left: 90px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 5px black;
+}
+#ceotext {
+  float: right;
+  width: calc(100% - 350px);
+  margin-top: 100px;
+  padding: 30px 70px;
+}
+#ceotext h1 {
+  color: rgb(67, 81, 90);
+}
+#ceotext h5 {
+  font-weight: 100;
+  color: rgb(67, 81, 90);
+  margin-top: 4px;
+}
+#ceotext p {
+  color: rgb(67, 81, 90);
+  width: 50%;
+  margin-top: 10px;
+}
+#ceoicon {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+#ceoicon a {
+  color: white;
+  background: rgb(67, 81, 90);
+  padding: 9px 10px;
+  border-radius: 50%;
+  justify-items: center;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+#ceoicon a:hover {
+  background: rgb(99, 190, 173);
+}
+#makeanimpact {
+  float: left;
+  width: 100%;
+  height: 300px;
+  background: #eff8ff;
+  margin-top: 70px;
+}
+#makeanimpact h2 {
+  color: rgb(67, 81, 90);
+  margin-top: 60px;
+  margin-left: 100px;
+  font-size: 36px;
+}
+#makeanimpact a {
+  float: right;
+  padding: 5px 20px;
+  color: rgb(67, 81, 90);
+}
+#impact {
+  color: white;
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+#impact:hover {
+  color: white;
+  background: rgb(67, 81, 90);
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 200ms ease-in-out;
+}
+#don:hover {
+  color: rgb(99, 190, 173);
+  transition: all 200ms ease-in-out;
+}
+#contacttext {
+  float: left;
+  padding: 40px 80px;
+}
+#contacttext h1 {
+  color: rgb(67, 81, 90);
+}
+#contacttext img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+#contacttext p {
+  float: right;
+  margin-top: 35px;
+  margin-right: 80px;
+  color: rgb(91, 109, 133);
+}
+hr {
+  margin-top: 20px;
+  color: rgb(221, 224, 228);
+}
+#contactinformation {
+  margin-top: 50px;
+  list-style: none;
+  width: 100%;
+}
+#contactinformation h2 {
+  color: rgb(99, 190, 173);
+}
+#contactinformation li {
+  margin-top: 8px;
+  color: rgb(67, 81, 90);
+}
+#contactinformation button {
+  margin-top: 28px;
+  color: white;
+  background: rgb(67, 81, 90);
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+#contactinformation button:hover {
+  background: rgb(99, 190, 173);
+}
+#contactform {
+  float: right;
+  background: #eff8ff;
+  width: 38%;
+  height: 500px;
+  margin-top: 38px;
+  margin-right: 98px;
+  border-radius: 10px;
+}
+#contactform h1 {
+  color: rgb(67, 81, 90);
+  margin-top: 25px;
+  margin-left: 22px;
+}
+#contactform p {
+  color: rgb(67, 81, 90);
+  font-size: small;
+  margin-top: 14px;
+  margin-left: 22px;
+}
+#contactform form {
+  margin-left: 22px;
+}
+#email {
+  width: 84%;
+}
+#contactform input {
+  color: rgb(67, 81, 90);
+  background: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+#contactform textarea {
+  margin-top: 16px;
+  padding: 20px 20px;
+  color: rgb(67, 81, 90);
+  border-radius: 10px;
+  border: 1px solid transparent;
+  width: 84%;
+  height: 200px;
+  margin-left: 10px;
+}
+#contactform button {
+  margin-top: 19px;
+  margin-left: 20px;
+  color: white;
+  background: rgb(67, 81, 90);
+  font-weight: 600;
+  padding: 10px 127px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+#contactform button:hover {
+  background: rgb(99, 190, 173);
+}
+
+#volunteercontainer {
+  float: left;
+  width: 100%;
+  height: 100vh;
+  background: rgb(67, 81, 90);
+}
+#volunteercontainer h1 {
+  color: white;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+#volunteerform {
+  float: left;
+  width: 38%;
+  height: 500px;
+  background: white;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+#volunteerform h2 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#volunteerform input {
+  color: rgb(67, 81, 90);
+  background: #eff8ff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+#cv {
+  color: rgb(67, 81, 90);
+  background: #eff8ff;
+  border-radius: 20px;
+}
+#volunteerform textarea {
+  margin-top: 16px;
+  margin-left: 30px;
+  padding: 20px 20px;
+  color: rgb(67, 81, 90);
+  background: #eff8ff;
+  border-radius: 10px;
+  width: 60%;
+  height: 100px;
+}
+#volunteerform button {
+  margin-top: 16px;
+  color: white;
+  background: rgb(67, 81, 90);
+  font-weight: 600;
+  margin-left: 30px;
+  padding: 10px 127px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+#volunteerform button:hover {
+  background: rgb(99, 190, 173);
+}
+#volunteertext {
+  float: right;
+}
+#volunteertext img {
+  margin-right: 180px;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+}
+#volunteertext h3 {
+  color: white;
+  margin-top: 80px;
+}
+#volunteertext p {
+  margin-top: 20px;
+  color: white;
+}
+#cardcontainer {
+  display: inline-flex;
+}
+#card {
+  background: white;
+  width: 197px;
+  height: 205px;
+  margin: 40px;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+#card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+#cardimage {
+  margin-top: 15px;
+  margin-right: 40px;
+}
+#card p {
+  margin-top: 15px;
+  color: rgb(99, 190, 173);
+}
+h2 {
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 36px;
+  color: rgb(67, 81, 90);
+}
+#homebanner {
+  float: left;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/slide1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 80px;
+}
+#causescontainer {
+  float: left;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  height: 489px;
+}
+#causescontainer img {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+#causescard {
+  margin-top: 40px;
+  border-radius: 20px;
+}
+#causescard:hover {
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+#causescard h3 {
+  color: rgb(99, 190, 173);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#causescard p {
+  color: rgb(67, 81, 90);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#cause {
+  margin-bottom: 30px;
+}
+#causescard a {
+  color: white;
+  background: rgb(67, 81, 90);
+  padding: 10px 40px;
+  border-radius: 20px;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 90px;
+  transition: all 200ms ease-in-out;
+}
+#causescard a:hover {
+  background: rgb(99, 190, 173);
+}

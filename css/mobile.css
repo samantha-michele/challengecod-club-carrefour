@@ -1,0 +1,561 @@
+body {
+  background: white;
+}
+#header1 {
+  float: left;
+  background: rgb(99, 190, 173);
+  height: 60px;
+}
+#header1 p {
+  color: white;
+  font-weight: 100;
+  margin-right: 50px;
+  font-size: 15px;
+}
+#header1 a {
+  color: white;
+  font-weight: 300;
+  font-size: 15px;
+  margin-left: 10px;
+}
+#socialicon {
+  font-size: 5px;
+}
+#logo {
+  float: left;
+  width: 70px;
+  margin-left: 30px;
+}
+h2 {
+  font-size: 28px;
+}
+#cardcontainer {
+  display: block;
+  margin-left: 120px;
+}
+#aboutmain {
+  float: 100%;
+  height: 500px;
+  display: block;
+  background: #eff8ff;
+}
+#aboutmain img {
+  float: left;
+  width: 90%;
+  height: 400px;
+  margin-top: 60px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+#storytext {
+  width: 100%;
+  height: 190px;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+#storytext h1 {
+  color: rgb(67, 81, 90);
+  margin-top: 20px;
+  margin-left: 18px;
+  font-size: 18px;
+}
+#storytext h3 {
+  color: rgb(99, 190, 173);
+  margin-left: 18px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  display: block;
+}
+#storytext p {
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 18px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  color: rgb(67, 81, 90);
+}
+#missiontext {
+  float: left;
+  width: 100%;
+  height: 200px;
+  background: white;
+  margin-top: 30px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+#missiontext h2 {
+  color: rgb(99, 190, 173);
+  margin-top: 10px;
+  margin-left: 18px;
+}
+#missiontext p {
+  width: 100%;
+  margin-left: 18px;
+  color: rgb(67, 81, 90);
+  text-align: center;
+}
+#datatext {
+  width: 100%;
+  height: 200px;
+  background: white;
+  margin-top: 60px;
+  text-align: center;
+  border-radius: 10px;
+}
+#datatext h1 {
+  color: rgb(99, 190, 173);
+  margin-top: 40px;
+  margin-left: 70px;
+  font-weight: bolder;
+}
+#datatext p {
+  color: rgb(67, 81, 90);
+  font-size: small;
+  margin-left: 20px;
+}
+#ceodescription img {
+  float: left;
+  display: block;
+  margin-top: 800px;
+  width: 260px;
+  margin-left: 90px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 5px black;
+}
+#ceotext {
+  float: left;
+  width: 100%;
+  padding: 10px 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+#ceotext h1 {
+  color: rgb(67, 81, 90);
+  font-size: 37px;
+}
+#ceotext h5 {
+  font-weight: 100;
+  color: rgb(67, 81, 90);
+  margin-top: 4px;
+}
+#ceotext p {
+  color: rgb(67, 81, 90);
+  width: 100%;
+  margin-top: 10px;
+}
+#causescontainer {
+  float: left;
+  width: 50%;
+  display: block;
+  height: 489px;
+  text-align: center;
+}
+#causescontainer img {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+#causescard {
+  margin-top: 40px;
+  border-radius: 20px;
+}
+#causescard:hover {
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+#causescard h3 {
+  color: rgb(99, 190, 173);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#causescard p {
+  color: rgb(67, 81, 90);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#cause {
+  margin-bottom: 30px;
+}
+#causescard a {
+  color: white;
+  background: rgb(67, 81, 90);
+  padding: 10px 10px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  text-align: center;
+  transition: all 200ms ease-in-out;
+}
+#causescard a:hover {
+  background: rgb(99, 190, 173);
+}
+#volunteercontainer {
+  float: left;
+  width: 100%;
+  height: 1100px;
+  background: rgb(67, 81, 90);
+  margin-top: 900px;
+}
+#volunteercontainer h1 {
+  color: white;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+#volunteerform {
+  float: left;
+  width: 90%;
+  height: 460px;
+  background: white;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+#volunteerform h2 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#volunteerform input {
+  color: rgb(67, 81, 90);
+  background: #eff8ff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+#cv {
+  color: rgb(67, 81, 90);
+  background: #eff8ff;
+  border-radius: 20px;
+}
+#volunteerform textarea {
+  margin-top: 16px;
+  margin-left: 30px;
+  padding: 20px 20px;
+  color: rgb(67, 81, 90);
+  background: #eff8ff;
+  border-radius: 10px;
+  width: 80%;
+  height: 100px;
+}
+#volunteerform button {
+  margin-top: 16px;
+  color: white;
+  background: rgb(67, 81, 90);
+  font-weight: 600;
+  margin-left: 30px;
+  padding: 10px 127px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+#volunteerform button:hover {
+  background: rgb(99, 190, 173);
+}
+#volunteertext {
+  float: right;
+}
+#volunteertext img {
+  margin-left: 40px;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+#volunteertext h3 {
+  color: white;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+#volunteertext p {
+  margin-top: 20px;
+  color: white;
+  margin-left: 40px;
+}
+#contacttext {
+  float: left;
+  padding: 40px 80px;
+}
+#contacttext h1 {
+  color: rgb(67, 81, 90);
+}
+#contacttext img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+#contacttext p {
+  float: right;
+  margin-top: 35px;
+  margin-right: 80px;
+  color: rgb(91, 109, 133);
+}
+hr {
+  margin-top: 20px;
+  color: rgb(221, 224, 228);
+}
+#contactinformation {
+  margin-top: 50px;
+  list-style: none;
+  width: 100%;
+}
+#contactinformation h2 {
+  color: rgb(99, 190, 173);
+}
+#contactinformation li {
+  margin-top: 8px;
+  color: rgb(67, 81, 90);
+}
+#contactinformation button {
+  margin-top: 28px;
+  color: white;
+  background: rgb(67, 81, 90);
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+#contactinformation button:hover {
+  background: rgb(99, 190, 173);
+}
+#contactform {
+  float: left;
+  background: #eff8ff;
+  width: 80%;
+  height: 500px;
+  margin-top: 38px;
+  margin-left: 60px;
+  border-radius: 10px;
+}
+#contactform h1 {
+  color: rgb(67, 81, 90);
+  margin-top: 25px;
+  margin-left: 34px;
+}
+#contactform p {
+  color: rgb(67, 81, 90);
+  font-size: small;
+  margin-top: 14px;
+  margin-left: 22px;
+}
+#contactform form {
+  margin-left: 22px;
+}
+#email {
+  width: 84%;
+}
+#contactform input {
+  color: rgb(67, 81, 90);
+  background: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  margin-top: 16px;
+  margin-left: 20px;
+}
+#contactform textarea {
+  margin-top: 16px;
+  padding: 20px 20px;
+  color: rgb(67, 81, 90);
+  border-radius: 10px;
+  border: 1px solid transparent;
+  width: 84%;
+  height: 200px;
+  margin-left: 20px;
+  float: left;
+  padding: 40px 80px;
+}
+#contacttext h1 {
+  color: rgb(67, 81, 90);
+}
+#contacttext img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+#contacttext p {
+  float: right;
+  margin-top: 35px;
+  margin-right: 80px;
+  color: rgb(91, 109, 133);
+}
+hr {
+  margin-top: 20px;
+  color: rgb(221, 224, 228);
+}
+#contactinformation {
+  margin-top: 50px;
+  list-style: none;
+  width: 100%;
+}
+#contactinformation h2 {
+  color: rgb(99, 190, 173);
+}
+#contactinformation li {
+  margin-top: 8px;
+  color: rgb(67, 81, 90);
+}
+#contactinformation button {
+  margin-top: 28px;
+  color: white;
+  background: rgb(67, 81, 90);
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+#contactinformation button:hover {
+  background: rgb(99, 190, 173);
+}
+#contactform {
+  background: #eff8ff;
+  width: 80%;
+  height: 500px;
+  margin-top: 38px;
+  margin-left: 80px;
+  border-radius: 10px;
+}
+#contactform h1 {
+  color: rgb(67, 81, 90);
+  margin-top: 25px;
+  margin-left: 22px;
+}
+#contactform p {
+  color: rgb(67, 81, 90);
+  font-size: small;
+  margin-top: 14px;
+  margin-left: 22px;
+}
+#contactform form {
+  margin-left: 22px;
+}
+#email {
+  width: 84%;
+}
+#contactform input {
+  color: rgb(67, 81, 90);
+  background: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+#contactform textarea {
+  margin-top: 16px;
+  padding: 20px 20px;
+  color: rgb(67, 81, 90);
+  border-radius: 10px;
+  border: 1px solid transparent;
+  width: 84%;
+  height: 200px;
+  margin-left: 10px;
+}
+#contactform button {
+  margin-top: 19px;
+  margin-left: 20px;
+  color: white;
+  background: rgb(67, 81, 90);
+  font-weight: 600;
+  padding: 10px 127px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+#contactform button:hover {
+  background: rgb(99, 190, 173);
+}
+
+#contactform button {
+  margin-top: 19px;
+  margin-left: 20px;
+  color: white;
+  background: rgb(67, 81, 90);
+  font-weight: 600;
+  padding: 10px 127px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+#contactform button:hover {
+  background: rgb(99, 190, 173);
+}
+#footer1 {
+  width: 800px;
+  height: 450px;
+  background: rgb(67, 81, 90);
+  margin-top: 500px;
+  color: white;
+  display: block;
+}
+#footer1 h3 {
+  color: rgb(99, 190, 173);
+  margin-top: 20px;
+  margin-left: 40px;
+}
+#footer1 p {
+  margin-left: 80px;
+}
+#footer1 a {
+  color: white;
+}
+#quick2 {
+  margin-left: 60px;
+}
+#footer1 button {
+  margin-top: 40px;
+  margin-left: 100px;
+  background: rgb(91, 109, 133);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+#footer1 button:hover {
+  background: rgb(99, 190, 173);
+}
+
+#footer2 {
+  float: left;
+  width: 100%;
+  height: 210px;
+  background: rgb(91, 109, 133);
+  display: block;
+}
+#footer2 p {
+  color: white;
+  font-size: 50;
+}
+#socialiconbottom a {
+  line-height: 60px;
+  color: white;
+  margin-right: 40px;
+  background: rgb(67, 81, 90);
+  padding: 7px 7px;
+  border-radius: 50%;
+  align-items: center;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+#socialiconbottom a:hover {
+  background: rgb(99, 190, 173);
+}
+#logobottom {
+  width: 70px;
+  margin-top: 20px;
+}
